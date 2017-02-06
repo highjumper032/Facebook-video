@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040539ED1D46F564001A4FF0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040539EA1D46F564001A4FF0 /* FBSDKCoreKit.framework */; };
+		040539EE1D46F564001A4FF0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040539EB1D46F564001A4FF0 /* FBSDKLoginKit.framework */; };
+		040539EF1D46F564001A4FF0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040539EC1D46F564001A4FF0 /* FBSDKShareKit.framework */; };
+		040539FA1D474B6C001A4FF0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040539F91D474B6C001A4FF0 /* Bolts.framework */; };
+		0482175F1D4B461D003A2217 /* SearchFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482175E1D4B461D003A2217 /* SearchFriendsViewController.m */; };
+		048217621D4D0E70003A2217 /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048217611D4D0E70003A2217 /* VideoTableViewController.m */; };
+		048217651D4D2494003A2217 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048217641D4D2494003A2217 /* VideoViewController.m */; };
+		448BCC4E1D3CD91E008ED9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 448BCC4D1D3CD91E008ED9AA /* main.m */; };
+		448BCC511D3CD91E008ED9AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 448BCC501D3CD91E008ED9AA /* AppDelegate.m */; };
+		448BCC541D3CD91E008ED9AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448BCC531D3CD91E008ED9AA /* ViewController.m */; };
+		448BCC571D3CD91E008ED9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448BCC551D3CD91E008ED9AA /* Main.storyboard */; };
+		448BCC591D3CD91E008ED9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448BCC581D3CD91E008ED9AA /* Assets.xcassets */; };
+		448BCC5C1D3CD91E008ED9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448BCC5A1D3CD91E008ED9AA /* LaunchScreen.storyboard */; };
+		448BCC661D3CD948008ED9AA /* TSFacebookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 448BCC651D3CD948008ED9AA /* TSFacebookManager.m */; };
+		448BCC6B1D3CF4B2008ED9AA /* TSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 448BCC6A1D3CF4B2008ED9AA /* TSCollectionViewCell.m */; };
+		448BCC6E1D3CF7D2008ED9AA /* TSFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 448BCC6D1D3CF7D2008ED9AA /* TSFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040539EA1D46F564001A4FF0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = FBSDKFrameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		040539EB1D46F564001A4FF0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FBSDKFrameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		040539EC1D46F564001A4FF0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = FBSDKFrameworks/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		040539F91D474B6C001A4FF0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = FBSDKFrameworks/Bolts.framework; sourceTree = "<group>"; };
+		0482175D1D4B461D003A2217 /* SearchFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFriendsViewController.h; sourceTree = "<group>"; };
+		0482175E1D4B461D003A2217 /* SearchFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFriendsViewController.m; sourceTree = "<group>"; };
+		048217601D4D0E70003A2217 /* VideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewController.h; sourceTree = "<group>"; };
+		048217611D4D0E70003A2217 /* VideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewController.m; sourceTree = "<group>"; };
+		048217631D4D2494003A2217 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		048217641D4D2494003A2217 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		448BCC491D3CD91E008ED9AA /* FBVidDL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBVidDL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		448BCC4D1D3CD91E008ED9AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		448BCC4F1D3CD91E008ED9AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		448BCC501D3CD91E008ED9AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		448BCC521D3CD91E008ED9AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		448BCC531D3CD91E008ED9AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		448BCC561D3CD91E008ED9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		448BCC581D3CD91E008ED9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		448BCC5B1D3CD91E008ED9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		448BCC5D1D3CD91E008ED9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448BCC641D3CD948008ED9AA /* TSFacebookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSFacebookManager.h; sourceTree = "<group>"; };
+		448BCC651D3CD948008ED9AA /* TSFacebookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSFacebookManager.m; sourceTree = "<group>"; };
+		448BCC691D3CF4B2008ED9AA /* TSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCollectionViewCell.h; sourceTree = "<group>"; };
+		448BCC6A1D3CF4B2008ED9AA /* TSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCollectionViewCell.m; sourceTree = "<group>"; };
+		448BCC6C1D3CF7D2008ED9AA /* TSFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSFlowLayout.h; sourceTree = "<group>"; };
+		448BCC6D1D3CF7D2008ED9AA /* TSFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		448BCC461D3CD91E008ED9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040539ED1D46F564001A4FF0 /* FBSDKCoreKit.framework in Frameworks */,
+				040539EF1D46F564001A4FF0 /* FBSDKShareKit.framework in Frameworks */,
+				040539EE1D46F564001A4FF0 /* FBSDKLoginKit.framework in Frameworks */,
+				040539FA1D474B6C001A4FF0 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040539E31D46F4A7001A4FF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040539F91D474B6C001A4FF0 /* Bolts.framework */,
+				040539EA1D46F564001A4FF0 /* FBSDKCoreKit.framework */,
+				040539EB1D46F564001A4FF0 /* FBSDKLoginKit.framework */,
+				040539EC1D46F564001A4FF0 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		448BCC401D3CD91E008ED9AA = {
+			isa = PBXGroup;
+			children = (
+				448BCC4B1D3CD91E008ED9AA /* FBVidDL */,
+				448BCC4A1D3CD91E008ED9AA /* Products */,
+				040539E31D46F4A7001A4FF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		448BCC4A1D3CD91E008ED9AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448BCC491D3CD91E008ED9AA /* FBVidDL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		448BCC4B1D3CD91E008ED9AA /* FBVidDL */ = {
+			isa = PBXGroup;
+			children = (
+				448BCC681D3CF35D008ED9AA /* ViewControllers */,
+				448BCC671D3CF351008ED9AA /* Views */,
+				448BCC631D3CD939008ED9AA /* Model */,
+				448BCC4F1D3CD91E008ED9AA /* AppDelegate.h */,
+				448BCC501D3CD91E008ED9AA /* AppDelegate.m */,
+				448BCC521D3CD91E008ED9AA /* ViewController.h */,
+				448BCC531D3CD91E008ED9AA /* ViewController.m */,
+				448BCC551D3CD91E008ED9AA /* Main.storyboard */,
+				448BCC581D3CD91E008ED9AA /* Assets.xcassets */,
+				448BCC5A1D3CD91E008ED9AA /* LaunchScreen.storyboard */,
+				448BCC5D1D3CD91E008ED9AA /* Info.plist */,
+				448BCC4C1D3CD91E008ED9AA /* Supporting Files */,
+				0482175D1D4B461D003A2217 /* SearchFriendsViewController.h */,
+				0482175E1D4B461D003A2217 /* SearchFriendsViewController.m */,
+				048217601D4D0E70003A2217 /* VideoTableViewController.h */,
+				048217611D4D0E70003A2217 /* VideoTableViewController.m */,
+				048217631D4D2494003A2217 /* VideoViewController.h */,
+				048217641D4D2494003A2217 /* VideoViewController.m */,
+			);
+			path = FBVidDL;
+			sourceTree = "<group>";
+		};
+		448BCC4C1D3CD91E008ED9AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				448BCC4D1D3CD91E008ED9AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		448BCC631D3CD939008ED9AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				448BCC641D3CD948008ED9AA /* TSFacebookManager.h */,
+				448BCC651D3CD948008ED9AA /* TSFacebookManager.m */,
+				448BCC6C1D3CF7D2008ED9AA /* TSFlowLayout.h */,
+				448BCC6D1D3CF7D2008ED9AA /* TSFlowLayout.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		448BCC671D3CF351008ED9AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				448BCC691D3CF4B2008ED9AA /* TSCollectionViewCell.h */,
+				448BCC6A1D3CF4B2008ED9AA /* TSCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		448BCC681D3CF35D008ED9AA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		448BCC481D3CD91E008ED9AA /* FBVidDL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448BCC601D3CD91E008ED9AA /* Build configuration list for PBXNativeTarget "FBVidDL" */;
+			buildPhases = (
+				448BCC451D3CD91E008ED9AA /* Sources */,
+				448BCC461D3CD91E008ED9AA /* Frameworks */,
+				448BCC471D3CD91E008ED9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBVidDL;
+			productName = FBVidDL;
+			productReference = 448BCC491D3CD91E008ED9AA /* FBVidDL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448BCC411D3CD91E008ED9AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tapsmith LLC";
+				TargetAttributes = {
+					448BCC481D3CD91E008ED9AA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 448BCC441D3CD91E008ED9AA /* Build configuration list for PBXProject "FBVidDL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 448BCC401D3CD91E008ED9AA;
+			productRefGroup = 448BCC4A1D3CD91E008ED9AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				448BCC481D3CD91E008ED9AA /* FBVidDL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		448BCC471D3CD91E008ED9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448BCC5C1D3CD91E008ED9AA /* LaunchScreen.storyboard in Resources */,
+				448BCC591D3CD91E008ED9AA /* Assets.xcassets in Resources */,
+				448BCC571D3CD91E008ED9AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		448BCC451D3CD91E008ED9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448BCC541D3CD91E008ED9AA /* ViewController.m in Sources */,
+				448BCC511D3CD91E008ED9AA /* AppDelegate.m in Sources */,
+				048217651D4D2494003A2217 /* VideoViewController.m in Sources */,
+				0482175F1D4B461D003A2217 /* SearchFriendsViewController.m in Sources */,
+				048217621D4D0E70003A2217 /* VideoTableViewController.m in Sources */,
+				448BCC6E1D3CF7D2008ED9AA /* TSFlowLayout.m in Sources */,
+				448BCC6B1D3CF4B2008ED9AA /* TSCollectionViewCell.m in Sources */,
+				448BCC661D3CD948008ED9AA /* TSFacebookManager.m in Sources */,
+				448BCC4E1D3CD91E008ED9AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		448BCC551D3CD91E008ED9AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448BCC561D3CD91E008ED9AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		448BCC5A1D3CD91E008ED9AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448BCC5B1D3CD91E008ED9AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		448BCC5E1D3CD91E008ED9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		448BCC5F1D3CD91E008ED9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		448BCC611D3CD91E008ED9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FBSDKFrameworks",
+				);
+				INFOPLIST_FILE = FBVidDL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tapsmith.FBVidDL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		448BCC621D3CD91E008ED9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FBSDKFrameworks",
+				);
+				INFOPLIST_FILE = FBVidDL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tapsmith.FBVidDL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448BCC441D3CD91E008ED9AA /* Build configuration list for PBXProject "FBVidDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448BCC5E1D3CD91E008ED9AA /* Debug */,
+				448BCC5F1D3CD91E008ED9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448BCC601D3CD91E008ED9AA /* Build configuration list for PBXNativeTarget "FBVidDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448BCC611D3CD91E008ED9AA /* Debug */,
+				448BCC621D3CD91E008ED9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448BCC411D3CD91E008ED9AA /* Project object */;
+}
